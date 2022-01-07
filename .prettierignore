@@ -8,3 +8,4 @@ artifacts
 cache
 dist
 typechain-types
+abi
