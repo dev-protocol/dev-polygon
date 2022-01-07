@@ -6,7 +6,7 @@ import { ethers, upgrades, waffle } from 'hardhat'
 
 const { deployMockContract } = waffle
 
-describe('ArbDevWrapper', () => {
+describe('PolygonDevWrapper', () => {
 	/** TODO - these need to be changed */
 	const L2_TOKEN_ADDR = '0x0000000000000000000000000000000000000000'
 	const ROUTER_ADDR = '0x0000000000000000000000000000000000000001'
@@ -15,7 +15,7 @@ describe('ArbDevWrapper', () => {
 	/** End TODO */
 
 	before(async function () {
-		this.Dev = await ethers.getContractFactory('ArbDevWrapper')
+		this.Dev = await ethers.getContractFactory('PolygonDevWrapper')
 		this.ErcDummy = await ethers.getContractFactory('DummyDev')
 
 		const [, user] = await ethers.getSigners()

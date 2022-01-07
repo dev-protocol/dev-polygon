@@ -13,7 +13,7 @@ import {IGatewayRouter} from "interfaces/IGatewayRouter.sol";
 import {ICustomGateway} from "interfaces/ICustomGateway.sol";
 import {IMintRenounceable} from "interfaces/IMintRenounceable.sol";
 
-contract ArbDevWrapper is ERC20Upgradeable, OwnableUpgradeable {
+contract PolygonDevWrapper is ERC20Upgradeable, OwnableUpgradeable {
 	using SafeERC20 for IERC20;
 
 	address public l2Token;

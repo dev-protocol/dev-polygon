@@ -13,3 +13,5 @@ artifacts
 dist/
 yarn-error.log
 typechain-types/
+
+abi
